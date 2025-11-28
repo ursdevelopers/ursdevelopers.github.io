@@ -101,7 +101,19 @@ body {
   background: #009141;
 }
 
-.store-icons img {
+.store-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin-top: 20px;
-  width: 150px;
+}
+
+.store-badge {
+  height: 55px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
 }
